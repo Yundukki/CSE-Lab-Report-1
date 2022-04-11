@@ -89,9 +89,12 @@
 
     Press enter. Next it will prompt you for a passphrase in which you will leave blank for no passphrase. 
         
-    If you are using windows, follow the extra steps given [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
+    If you are using windows, follow the extra steps given below.
+   https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation.
     
-    Lastly we need to copy the public key from the directory of the client to the user account on the server. Login to the server and use the following command:
+    Lastly we need to copy the public key from the directory of the 
+    client to the user account on the server. Login to the server and 
+    use the following command:
 
     `mkdir .ssh`
 
