@@ -8,13 +8,13 @@
 
 2. ### Remotely Connecting
 
-    a. (Windows Only) Start by installing [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
+    (Windows Only) Start by installing [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
 
-    b. Next, we will look up our [Course-specific Account](https://sdacs.ucsd.edu/~icc/index.php). Here you will enter your credentials and find your course-specific account under Additional Accounts.
+    Next, we will look up our [Course-specific Account](https://sdacs.ucsd.edu/~icc/index.php). Here you will enter your credentials and find your course-specific account under Additional Accounts.
 
     ![](additionalaccounts.png) 
 
-    c. To set up remote connection, head to VS Code and open a new terminal (Terminal -> New Terminal). 
+    To set up remote connection, head to VS Code and open a new terminal (Terminal -> New Terminal). 
         
     Enter the Command (zz will be replaced by your course-specific account)
         
