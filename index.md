@@ -2,7 +2,7 @@
 
 1. ### Installing Visual Studio Code
     
-    a. To begin, we will first head to the [Visual Studio Code](https://code.visualstudio.com/) Website. Select MacOS, Windows x64, or Linux x64 for your respective operating system.
+    To begin, we will first head to the [Visual Studio Code](https://code.visualstudio.com/) Website. Select MacOS, Windows x64, or Linux x64 for your respective operating system.
 
     ![](labreport1pic1.png)
 
@@ -37,21 +37,37 @@
 
         This command combines three options in one. -l shows all of the hidden files. -a shows additional information. -t shows all of the files and information sorted by time and date of when they were created/modified. 
 
-    ![](ls-a.png)
+        ![](lat.png)
+    
 
 
     * `ls -a`
         
         This command searches the current directory and shows additional information of all the files.
 
-    Example Command:
+        ![](ls-a.png)
 
-    ![](examplecommand.png)
+    * Example Command:
 
-    As we can see here, the command attempts to access another students files from their directory. The server does not allow this so the request is denied. 
+        ![](examplecommand.png)
 
-    Using the command `exit` or CTRL-D will log you out of the server. 
+        As we can see here, the command attempts to access another students files from their directory. The server does not allow this so the request is denied. 
 
+        Using the command `exit` or CTRL-D will log you out of the server. 
+    
+    * The command cd (cd ~) allows you change to the next working directory (previous working directory)
+
+    * `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/` attempts to copy the file given. 
+
+        ![](cptxt.png)
+
+        As you can see here, since I was not given permission to access the file, I was unable to copy its contents.
+
+    * `cat /home/linux/ieng6/cs15lsp22/public/hello.txt` 
+
+        ![](cattxt.png)
+        
+        The reason here is the same as the previous command. Permission was denied so I was unable to open/create a new file.
 
 4. ### Moving Files Using scp
 
