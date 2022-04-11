@@ -57,7 +57,7 @@
 
     In this part, we will learn how to copy a file from our computer to the remotely connected computer. 
 
-    a. First want to create a file on the client computer. In this case, we will use the file WhereAmI.java. Make sure to copy the code in the image below!
+    First want to create a file on the client computer. In this case, we will use the file WhereAmI.java. Make sure to copy the code in the image below!
 
     ![](whereami.png)
 
@@ -65,11 +65,11 @@
     Test this file to ensure it works using java and javac. If you do not have java installed, you may skip this step.
 
 
-    b. Follow the command below to copy over the file into the server (remotely connected computer)
+    Follow the command below to copy over the file into the server (remotely connected computer)
 
     ![](scp.png)
 
-    c. We will now long into the server using SSH to ensure that our file successfully copied over. 
+    We will now long into the server using SSH to ensure that our file successfully copied over. 
 
     Use the commmand ls to check if the file exists in the directory. 
 
@@ -82,25 +82,25 @@
 
 5. ### Setting a SSH Key
 
-    Moving between client and server is extremely time consuming when done repeatedly. To hasten this process we can create a ssh key.
+        Moving between client and server is extremely time consuming when done repeatedly. To hasten this process we can create a ssh key.
 
-    We start by calling `ssh-keygen` on the client 
+        We start by calling `ssh-keygen` on the client 
 
-    ![](sshkeygen.png)
+        ![](sshkeygen.png)
 
-    Press enter. Next it will prompt you for a passphrase in which you will leave blank for no passphrase. 
+        Press enter. Next it will prompt you for a passphrase in which you will leave blank for no passphrase. 
         
-    If you are using windows, follow the extra steps given [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
+        If you are using windows, follow the extra steps given [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
     
-    Lastly we need to copy the public key from the directory of the client to the user account on the server. Login to the server and use the following command:
+        Lastly we need to copy the public key from the directory of the client to the user account on the server. Login to the server and use the following command:
 
-    `mkdir .ssh`
+        `mkdir .ssh`
 
-    Now return back to the client and use the following command:
+        Now return back to the client and use the following command:
 
-    ![](scpkey.png)
+        ![](scpkey.png)
 
-    Make sure to replace the zz with your course-specific account. (in this case replace "arq")
+        Make sure to replace the zz with your course-specific account. (in this case replace "arq")
 
 6. ### Optimize Remote Running
 
