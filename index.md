@@ -87,7 +87,7 @@
 
     ![](sshkeygen.png)
 
-    Press enter. Next it will prompt you for a passphrase in which you will leave blank for no passphrase. 
+    Press enter and it will prompt you for a passphrase in which you will leave blank for no passphrase. 
         
     If you are using windows, follow the extra steps given below.
 
