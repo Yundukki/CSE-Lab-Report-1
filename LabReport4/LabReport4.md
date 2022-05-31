@@ -76,7 +76,7 @@ your program work for snippet 2 and all related cases that nest
 parentheses, brackets, and escaped brackets? If yes, describe the
 code change. If not, describe why it would be a more involved change.
 
-    - I think that this would take a more involved change to fix. When initially creating test cases and fixing those errors, I mostly worked with empty spacs and missing brackets. This snippet contains nested brackets and other cases that I have not considered. 
+- I think that this would take a more involved change to fix. When initially creating test cases and fixing those errors, I mostly worked with empty spacs and missing brackets. This snippet contains nested brackets and other cases that I have not considered. 
 
 <br/>
 
@@ -113,4 +113,4 @@ your program work for snippet 3 and all related cases that have
 newlines in brackets and parentheses? If yes, describe the code
 change. If not, describe why it would be a more involved change.
 
-    - I believe that new lines in brackets and parenthases can be fixed with a small change in my markdown parse code. When initially fixing my markdown parse most of my test cases worked with the spacing. I think that I could add an if statement that checks if the line has long empty space, then move to the next line. 
+- I believe that new lines in brackets and parenthases can be fixed with a small change in my markdown parse code. When initially fixing my markdown parse most of my test cases worked with the spacing. I think that I could add an if statement that checks if the line has long empty space, then move to the next line. 
