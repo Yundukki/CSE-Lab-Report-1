@@ -4,7 +4,7 @@
 
 <br/>
 
-First I used `scp -r . ieng6:MARKDOWN-PARSER-MAIN` in the terminal to copy the repository over to the remote computer. I then used vim and added `echo $file` so that when I use the `time bash script.sh` command, it prints out the test file names. I then added the test files and the script.sh file to my own markdown parser and copied that repository over to the remote computer. I used the time bash script.sh command to run both files and compared the results to find two tests that had different results. 
+First I used `scp -r . ieng6:MARKDOWN-PARSER-MAIN` in the terminal to copy the repository over to the remote computer. I then used `vim script.sh` and added `echo $file` so that when I use the `time bash script.sh` command, it prints out the test file names. I then added the test files and the script.sh file to my own markdown parser and copied that repository over to the remote computer. I used the `time bash script.sh` command to run both files and compared the results to find two tests that had different results. 
 
 <br/>
 
