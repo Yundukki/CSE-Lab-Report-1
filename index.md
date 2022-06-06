@@ -7,3 +7,5 @@
 [LabReport#3](https://yundukki.github.io/CSE-Lab-Reports/LabReport3/LabReport3.html)
 
 [LabReport#4](https://yundukki.github.io/CSE-Lab-Reports/LabReport4/LabReport4.html)
+
+[LabReport#5](https://yundukki.github.io/CSE-Lab-Reports/LabReport5/LabReport5.html)

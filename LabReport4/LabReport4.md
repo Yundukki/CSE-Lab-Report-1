@@ -10,7 +10,7 @@
 
 <br/>
 
-- This first picture is the test case that I added and used to test my markdown parse using snippet #1. 
+- This#  first picture is the test case that I added and used to test my markdown parse using snippet #1. 
     
     ![](mySnippet1.png)
 
